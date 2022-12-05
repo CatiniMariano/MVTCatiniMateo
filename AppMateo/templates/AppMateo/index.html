@@ -7,10 +7,17 @@
     <title>Inicio</title>
 </head>
 <body>
-    <h1>{{familiar1}}</h1>
+    <h1>MIS FAMILIARES</h1>
+
+    <ul>
+        {% for integrante in familiares %}
+        <li> {{integrante.nombre }} tiene {{integrante.edad}} años</li>
+
+        {% endfor %}
+    </ul>
 
 
+    <h3>Un h3 de prueba</h3>
     
 </body>
 </html>
-<h4>Hola</h4>

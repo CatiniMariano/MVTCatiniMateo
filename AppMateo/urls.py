@@ -3,7 +3,7 @@ from AppMateo.views import *
 
 
 urlpatterns = [
-    path("familia/", familiares, name="familiares"),
+    path("familia/", familiar, name="familiares"),
 
 
 
